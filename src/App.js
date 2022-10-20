@@ -1,4 +1,4 @@
- 
+ import './categories.styles.scss';
 
 const App = () => {
 
@@ -24,7 +24,7 @@ const App = () => {
       title: 'Mens',
     }
   ];
-  
+
   return (
     <div className="categories-container">
      {categories.map(({title}) => (
