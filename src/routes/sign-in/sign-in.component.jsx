@@ -16,7 +16,7 @@ const SignIn = () => {
     if(response){
       const userDocRef = await createUserDocumentFromAuth(response.user)
     }
-    console.log(response)
+    // console.log(response)
   }, [])
 
   const logGoogleUser = async () => {
