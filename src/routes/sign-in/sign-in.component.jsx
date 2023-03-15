@@ -12,9 +12,9 @@ import {
 const SignIn = () => {
 
   useEffect( async () => {
-    const response = await getRedirectResult(auth)
-    if(response){
-      const userDocRef = await createUserDocumentFromAuth(response.user)
+    // const response = await getRedirectResult(auth)
+    // if(response){
+    //   const userDocRef = await createUserDocumentFromAuth(response.user)
     }
     // console.log(response)
   }, [])
